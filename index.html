@@ -3,13 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Финансовый брокер — кредиты и ипотека без переплат</title>
-<meta name="description" content="Подбираем кредиты, ипотеку и автокредиты на условиях 200+ банков-партнёров. Бесплатно для клиента, онлайн, за 5 минут.">
-<meta name="theme-color" content="#0b2647">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%230b2647'/%3E%3Cpath d='M12 30l7-9 6 6 11-14' stroke='%2300b877' stroke-width='4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+<title>Согласовано — кредитный брокер в Москве и Московской области</title>
+<meta name="description" content="Подбираем кредиты, ипотеку и кредит под залог недвижимости на условиях банков-партнёров. Без предоплаты — платите только после получения денег.">
+<meta name="theme-color" content="#3b44e3">
+<link rel="icon" href="assets/img/logo.svg">
 <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -19,27 +16,33 @@
 <header class="site-header" id="siteHeader">
   <div class="container">
     <a href="#top" class="brand" aria-label="На главную">
-      <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
-        <rect width="48" height="48" rx="14" fill="#0b2647"/>
-        <path d="M12 30l7-9 6 6 11-14" stroke="#00b877" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-      <span class="brand-name"><b>Ваш бренд</b><span>финансовый брокер</span></span>
+      <img class="logo-color" src="assets/img/logo.svg" alt="Согласовано">
+      <img class="logo-white" src="assets/img/logo-white.svg" alt="Согласовано">
     </a>
 
     <nav class="nav-desktop" aria-label="Основная навигация">
-      <a href="#services">Услуги</a>
-      <a href="#calculator">Калькулятор</a>
-      <a href="#how">Как это работает</a>
-      <a href="#advantages">Преимущества</a>
-      <a href="#reviews">Отзывы</a>
-      <a href="#faq">Вопросы</a>
+      <div class="has-dropdown">
+        <a href="#services">Услуги</a>
+        <div class="dropdown">
+          <a href="products/collateral.html">Кредит под залог недвижимости</a>
+          <a href="products/cash.html">Кредит наличными</a>
+          <a href="products/auto.html">Автокредит</a>
+          <a href="products/business.html">Кредиты бизнесу</a>
+          <a href="products/refinance.html">Рефинансирование залога</a>
+          <a href="products/mortgage.html">Ипотека</a>
+          <a href="#addons">Дополнительные услуги</a>
+        </div>
+      </div>
+      <a href="#about">О компании</a>
+      <a href="quiz.html">Кредитный ДНК</a>
+      <a href="#news">Новости</a>
       <a href="#contacts">Контакты</a>
     </nav>
 
     <div class="header-actions">
       <div class="header-phone">
-        <a href="tel:+78001234567">8 800 123-45-67</a>
-        <small>Звонок бесплатный</small>
+        <a href="tel:+78000000000">8 800 000-00-00</a>
+        <small>Бесплатно по России</small>
       </div>
       <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
         <svg class="icon icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
@@ -55,468 +58,415 @@
 
 <div class="nav-mobile" id="navMobile">
   <div class="nav-mobile-top">
-    <span class="brand"><svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="14" fill="#0b2647"/><path d="M12 30l7-9 6 6 11-14" stroke="#00b877" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="brand-name"><b style="color:var(--c-text)">Ваш бренд</b></span></span>
+    <img src="assets/img/logo.svg" alt="Согласовано" style="height:26px">
     <button class="menu-toggle" id="menuClose" aria-label="Закрыть меню" style="background:var(--c-bg-alt);color:var(--c-text)">
       <svg class="icon" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>
     </button>
   </div>
   <a href="#services">Услуги</a>
-  <a href="#calculator">Калькулятор</a>
-  <a href="#how">Как это работает</a>
-  <a href="#advantages">Преимущества</a>
-  <a href="#reviews">Отзывы</a>
-  <a href="#faq">Вопросы</a>
+  <div class="sub-links">
+    <a href="products/collateral.html">Под залог недвижимости</a>
+    <a href="products/cash.html">Кредит наличными</a>
+    <a href="products/auto.html">Автокредит</a>
+    <a href="products/business.html">Кредиты бизнесу</a>
+    <a href="products/refinance.html">Рефинансирование залога</a>
+    <a href="products/mortgage.html">Ипотека</a>
+  </div>
+  <a href="#about">О компании</a>
+  <a href="quiz.html">Кредитный ДНК</a>
+  <a href="#news">Новости</a>
   <a href="#contacts">Контакты</a>
   <div class="header-phone">
-    <a href="tel:+78001234567">8 800 123-45-67</a>
-    <small>Звонок по России бесплатный</small>
+    <a href="tel:+78000000000">8 800 000-00-00</a>
+    <small>Бесплатно по России</small>
   </div>
   <a href="#apply" class="btn btn-primary btn-block mt-lg">Оставить заявку</a>
 </div>
 
 <main id="main">
 
-  <!-- HERO -->
+  <!-- HERO — Блок #2 -->
   <section class="hero" id="top">
     <div class="hero-blob b1"></div>
     <div class="hero-blob b2"></div>
     <div class="container">
       <div class="hero-copy">
-        <span class="eyebrow" style="background:rgba(63,227,164,.14); color:#3fe3a4;">
-          <svg class="icon" viewBox="0 0 24 24" width="14" height="14"><path d="M12 2l2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4L12 2z"/></svg>
-          Финансовый брокер нового поколения
-        </span>
-        <h1>Кредит и ипотека <em>без переплат</em> и беготни по банкам</h1>
-        <p>Сравниваем условия 200+ банков и МФО за вас, ведём сделку под ключ и отвечаем за каждую рекомендацию. Бесплатно для клиента — комиссию платит банк.</p>
+        <span class="eyebrow" style="background:rgba(255,255,255,.16); color:#fff;">Кредитный брокер</span>
+        <h1>Помогаем достичь ваших финансовых целей</h1>
+        <p>Поможем получить кредит в Москве и Московской области — подберём банк, соберём документы и доведём сделку до одобрения.</p>
         <div class="hero-cta">
-          <a href="#apply" class="btn btn-primary">Оставить заявку</a>
-          <a href="#calculator" class="btn btn-light">Рассчитать кредит</a>
+          <a href="#apply" class="btn btn-light">Бесплатная консультация эксперта</a>
         </div>
-        <div class="hero-trust">
-          <div><b>15 лет</b><span>на финансовом рынке</span></div>
-          <div><b>200+</b><span>банков-партнёров</span></div>
-          <div><b>98%</b><span>одобренных заявок</span></div>
-          <div><b>0 ₽</b><span>комиссии с клиента</span></div>
+        <div class="hero-points">
+          <div><svg class="icon" viewBox="0 0 24 24" width="14" height="14"><path d="M20 6L9 17l-5-5"/></svg>Работаем без предоплат</div>
+          <div><svg class="icon" viewBox="0 0 24 24" width="14" height="14"><path d="M20 6L9 17l-5-5"/></svg>Без скрытых комиссий и платежей</div>
+          <div><svg class="icon" viewBox="0 0 24 24" width="14" height="14"><path d="M20 6L9 17l-5-5"/></svg>Снижаем ставки до минимально возможных</div>
         </div>
       </div>
-
-      <div class="hero-panel" aria-hidden="true">
-        <div class="hero-panel-head">
-          <span>Топ предложений сегодня</span>
-          <svg class="icon" viewBox="0 0 24 24" width="16" height="16" style="color:#3fe3a4"><path d="M3 12h18M14 6l6 6-6 6"/></svg>
-        </div>
-        <div class="hero-panel-row">
-          <span class="name"><span class="badge"><svg class="icon" viewBox="0 0 24 24" width="18" height="18"><rect x="3" y="7" width="18" height="12" rx="2"/><path d="M3 11h18"/></svg></span>Потребительский кредит</span>
-          <span class="rate">от 6,9%</span>
-        </div>
-        <div class="hero-panel-row">
-          <span class="name"><span class="badge"><svg class="icon" viewBox="0 0 24 24" width="18" height="18"><path d="M4 11l8-6 8 6v9a1 1 0 01-1 1h-4v-6H9v6H5a1 1 0 01-1-1v-9z"/></svg></span>Ипотека</span>
-          <span class="rate">от 5,4%</span>
-        </div>
-        <div class="hero-panel-row">
-          <span class="name"><span class="badge"><svg class="icon" viewBox="0 0 24 24" width="18" height="18"><path d="M3 13l2-5a2 2 0 012-1h10a2 2 0 012 1l2 5v5a1 1 0 01-1 1h-1a1 1 0 01-1-1v-1H6v1a1 1 0 01-1 1H4a1 1 0 01-1-1v-5z"/><circle cx="7.5" cy="16.5" r="1.5"/><circle cx="16.5" cy="16.5" r="1.5"/></svg></span>Автокредит</span>
-          <span class="rate">от 7,2%</span>
-        </div>
-        <div class="hero-panel-row">
-          <span class="name"><span class="badge"><svg class="icon" viewBox="0 0 24 24" width="18" height="18"><path d="M3 21V9l9-6 9 6v12h-6v-7H9v7H3z"/></svg></span>Кредит для бизнеса</span>
-          <span class="rate">от 9,1%</span>
-        </div>
-        <div class="hero-panel-foot">
-          <svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path d="M20 6L9 17l-5-5"/></svg>
-          Ставки актуальны на сегодня, обновляются автоматически
-        </div>
-      </div>
+      <div class="hero-visual"><img src="assets/img/illustrations/hero-handshake.png" alt="" width="520"></div>
     </div>
   </section>
 
-  <!-- TRUST STRIP -->
-  <div class="trust-strip">
-    <p>Работаем по стандартам</p>
-    <div class="marquee">
-      <div class="marquee-group">
-        <span class="marquee-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5-3.4 8.4-8 10-4.6-1.6-8-5-8-10V6l8-4z"/></svg>152-ФЗ «О персональных данных»</span>
-        <span class="marquee-item"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M8 2v4M16 2v4M3 10h18"/></svg>Реестр кредитных брокеров</span>
-        <span class="marquee-item"><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Электронный документооборот</span>
-        <span class="marquee-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 2l2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4L12 2z"/></svg>Без скрытых комиссий</span>
-        <span class="marquee-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 22s8-4.5 8-11V5l-8-3-8 3v6c0 6.5 8 11 8 11z"/></svg>Страхование сделок</span>
-      </div>
-      <div class="marquee-group" aria-hidden="true">
-        <span class="marquee-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5-3.4 8.4-8 10-4.6-1.6-8-5-8-10V6l8-4z"/></svg>152-ФЗ «О персональных данных»</span>
-        <span class="marquee-item"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M8 2v4M16 2v4M3 10h18"/></svg>Реестр кредитных брокеров</span>
-        <span class="marquee-item"><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Электронный документооборот</span>
-        <span class="marquee-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 2l2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4L12 2z"/></svg>Без скрытых комиссий</span>
-        <span class="marquee-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 22s8-4.5 8-11V5l-8-3-8 3v6c0 6.5 8 11 8 11z"/></svg>Страхование сделок</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- STATS -->
-  <section class="stats">
-    <div class="container stats-grid">
-      <div class="stat-card reveal"><div class="num" data-count="52000">0</div><div class="lbl">Клиентов получили деньги</div></div>
-      <div class="stat-card reveal"><div class="num" data-count="214">0</div><div class="lbl">Банков и МФО-партнёров</div></div>
-      <div class="stat-card reveal"><div class="num" data-count="98" data-suffix="%">0</div><div class="lbl">Заявок одобряется</div></div>
-      <div class="stat-card reveal"><div class="num" data-count="12" data-suffix=" мин">0</div><div class="lbl">Среднее время решения</div></div>
-    </div>
-  </section>
-
-  <!-- SERVICES -->
-  <section id="services">
+  <!-- PARTNERS — Блок #3 -->
+  <section class="trust-strip" id="partners">
     <div class="container">
-      <div class="section-head center">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Аккредитованные партнёры</span>
+        <h2 class="section-title">ТОП 30 банков-партнёров</h2>
+        <p class="section-lead">Сравниваем условия банков, страховых компаний и застройщиков-партнёров, чтобы предложить вам лучшее решение.</p>
+      </div>
+
+      <div class="partner-group reveal">
+        <h3>Банки-партнёры</h3>
+        <div class="logo-grid">
+          <div class="logo-tile"><img src="assets/img/partners/banks/sber.svg" alt="Сбер"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/vtb.svg" alt="ВТБ"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/alfabank.svg" alt="Альфа-Банк"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/tbank.svg" alt="Т-Банк"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/gazprombank.svg" alt="Газпромбанк"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/sovcombank.svg" alt="Совкомбанк"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/otkritie.svg" alt="Открытие"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/mkb.svg" alt="МКБ"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/domrf.svg" alt="ДОМ.РФ"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/uralsib.svg" alt="Уралсиб"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/ubrir.svg" alt="УБРиР"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/mts-bank.svg" alt="МТС-Банк"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/tkb.svg" alt="ТКБ"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/derzhava.svg" alt="Держава"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/solidbank.svg" alt="Солид Банк"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/kamkombank.svg" alt="Камкомбанк"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/finstar.svg" alt="Финстар"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/fora.svg" alt="Фора-Банк"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/brs.svg" alt="БРС"></div>
+          <div class="logo-tile"><img src="assets/img/partners/banks/bzhf.svg" alt="БЖФ"></div>
+        </div>
+      </div>
+
+      <div class="partner-group reveal">
+        <h3>Страховые партнёры</h3>
+        <div class="logo-grid">
+          <div class="logo-tile"><img src="assets/img/partners/insurance/reso.svg" alt="РЕСО"></div>
+          <div class="logo-tile"><img src="assets/img/partners/insurance/sogaz.svg" alt="СОГАЗ"></div>
+          <div class="logo-tile"><img src="assets/img/partners/insurance/vsk.svg" alt="ВСК"></div>
+          <div class="logo-tile"><img src="assets/img/partners/insurance/alfastrah.svg" alt="АльфаСтрахование"></div>
+          <div class="logo-tile"><img src="assets/img/partners/insurance/absolut.svg" alt="Абсолют Страхование"></div>
+          <div class="logo-tile"><img src="assets/img/partners/insurance/ugoria.svg" alt="Югория"></div>
+          <div class="logo-tile"><img src="assets/img/partners/insurance/renessans.svg" alt="Ренессанс страхование"></div>
+          <div class="logo-tile"><img src="assets/img/partners/insurance/soglasie.svg" alt="Согласие"></div>
+          <div class="logo-tile"><img src="assets/img/partners/insurance/helios.svg" alt="Гелиос"></div>
+          <div class="logo-tile"><img src="assets/img/partners/insurance/zetta.svg" alt="Zetta Insurance"></div>
+          <div class="logo-tile"><img src="assets/img/partners/insurance/alfastrah-zhizn.svg" alt="АльфаСтрахование-Жизнь"></div>
+          <div class="logo-tile"><img src="assets/img/partners/insurance/soglasie-vita.png" alt="Согласие-Вита"></div>
+        </div>
+      </div>
+
+      <div class="partner-group reveal">
+        <h3>Застройщики-партнёры</h3>
+        <div class="logo-grid">
+          <div class="logo-tile"><img src="assets/img/partners/developers/dev-pik.png" alt="ПИК"></div>
+          <div class="logo-tile"><img src="assets/img/partners/developers/dev-lsr.png" alt="ЛСР"></div>
+          <div class="logo-tile"><img src="assets/img/partners/developers/dev-setlgroup.png" alt="Setl Group"></div>
+          <div class="logo-tile"><img src="assets/img/partners/developers/dev-fsk.png" alt="ФСК"></div>
+          <div class="logo-tile"><img src="assets/img/partners/developers/dev-granel.png" alt="Гранель"></div>
+          <div class="logo-tile"><img src="assets/img/partners/developers/dev-dogma.png" alt="DOGMA"></div>
+          <div class="logo-tile"><img src="assets/img/partners/developers/dev-level.png" alt="Level"></div>
+          <div class="logo-tile"><img src="assets/img/partners/developers/dev-task.png" alt="ТАСК"></div>
+          <div class="logo-tile"><img src="assets/img/partners/developers/dev-psk.png" alt="ПСК"></div>
+          <div class="logo-tile"><img src="assets/img/partners/developers/dev-yug.png" alt="ЮГ"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US — Блок #4 -->
+  <section id="about">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">О компании</span>
+        <h2 class="section-title">Почему выбирают нас?</h2>
+      </div>
+      <div class="advantages-grid">
+        <div class="adv-card reveal">
+          <img src="assets/img/illustrations/adv-time.png" alt="">
+          <div><h3>Экономим ваше время</h3><p>Подберём лучшие кредитные решения быстро, без лишних хлопот.</p></div>
+        </div>
+        <div class="adv-card reveal">
+          <img src="assets/img/illustrations/adv-choice.png" alt="">
+          <div><h3>Широкий выбор программ</h3><p>Доступ к эксклюзивным предложениям от банков и страховых компаний.</p></div>
+        </div>
+        <div class="adv-card reveal">
+          <img src="assets/img/illustrations/adv-approval.png" alt="">
+          <div><h3>Повышаем шансы на одобрение</h3><p>С нами вы получите не просто помощь, а стратегию для успешного одобрения.</p></div>
+        </div>
+        <div class="adv-card reveal">
+          <img src="assets/img/illustrations/adv-savings.png" alt="">
+          <div><h3>Снижаем переплаты</h3><p>Найдём выгодные условия с минимальными процентами и переплатой.</p></div>
+        </div>
+        <div class="adv-card reveal">
+          <img src="assets/img/illustrations/adv-support.png" alt="">
+          <div><h3>Профессиональная поддержка</h3><p>Консультация и сопровождение на всех этапах — от выбора продукта до оформления документов.</p></div>
+        </div>
+        <div class="adv-card reveal">
+          <img src="assets/img/illustrations/adv-protect.png" alt="">
+          <div><h3>Заботимся о вашей кредитной истории</h3><p>Избегаем лишних отказов и сохраняем ваш рейтинг.</p></div>
+        </div>
+      </div>
+      <p class="text-center reveal" style="margin-top:28px; font-weight:700; color:var(--c-primary);">+ индивидуальный подход: решения под ваши цели и возможности.</p>
+    </div>
+  </section>
+
+  <!-- SERVICES — Блок #6 -->
+  <section class="bg-alt" id="services">
+    <div class="container">
+      <div class="section-head center reveal">
         <span class="eyebrow">Услуги</span>
-        <h2 class="section-title">Одно окно для всех финансовых решений</h2>
-        <p class="section-lead">От потребительского кредита до кредита для бизнеса — подбираем и сопровождаем сделку от заявки до подписания.</p>
+        <h2 class="section-title">Наши услуги</h2>
       </div>
-      <div class="services-grid reveal-stagger">
-        <article class="service-card reveal" style="--i:0">
-          <div class="service-icon"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="12" rx="2"/><path d="M3 11h18M7 15h4"/></svg></div>
-          <h3>Потребительские кредиты</h3>
-          <p>Наличными или на карту без залога и поручителей — подберём минимальную ставку среди 200+ банков.</p>
-          <a href="#apply" class="service-link">Подробнее <svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <div class="services-grid">
+        <article class="service-card reveal">
+          <div class="thumb"><img src="assets/img/illustrations/key.svg" alt=""></div>
+          <div class="body">
+            <h3>Кредит под залог недвижимости</h3>
+            <p>Получите крупную сумму под залог недвижимости.</p>
+            <a href="products/collateral.html" class="service-link">Подробнее <svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
         </article>
-        <article class="service-card reveal" style="--i:1">
-          <div class="service-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M4 11l8-6 8 6v9a1 1 0 01-1 1h-4v-6H9v6H5a1 1 0 01-1-1v-9z"/></svg></div>
-          <h3>Ипотека</h3>
-          <p>Первичное и вторичное жильё, рефинансирование и семейные программы с господдержкой.</p>
-          <a href="#apply" class="service-link">Подробнее <svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <article class="service-card reveal">
+          <div class="thumb"><img src="assets/img/illustrations/auto.svg" alt=""></div>
+          <div class="body">
+            <h3>Автокредит</h3>
+            <p>Купите автомобиль мечты на выгодных условиях.</p>
+            <a href="products/auto.html" class="service-link">Подробнее <svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
         </article>
-        <article class="service-card reveal" style="--i:2">
-          <div class="service-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M3 13l2-5a2 2 0 012-1h10a2 2 0 012 1l2 5v5a1 1 0 01-1 1h-1a1 1 0 01-1-1v-1H6v1a1 1 0 01-1 1H4a1 1 0 01-1-1v-5z"/><circle cx="7.5" cy="16.5" r="1.5"/><circle cx="16.5" cy="16.5" r="1.5"/></svg></div>
-          <h3>Автокредитование</h3>
-          <p>Новые и подержанные авто, льготный лизинг для ИП и юрлиц.</p>
-          <a href="#apply" class="service-link">Подробнее <svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <article class="service-card reveal">
+          <div class="thumb"><img src="assets/img/illustrations/cash.svg" alt=""></div>
+          <div class="body">
+            <h3>Кредиты физическим лицам</h3>
+            <p>Кредиты на любые цели с минимальным пакетом документов.</p>
+            <a href="products/cash.html" class="service-link">Подробнее <svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
         </article>
-        <article class="service-card reveal" style="--i:3">
-          <div class="service-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M3 21V9l9-6 9 6v12h-6v-7H9v7H3z"/></svg></div>
-          <h3>Кредиты для бизнеса</h3>
-          <p>Оборотные средства, кредитные линии и субсидируемые программы для МСП.</p>
-          <a href="#apply" class="service-link">Подробнее <svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <article class="service-card reveal">
+          <div class="thumb"><img src="assets/img/illustrations/business.svg" alt=""></div>
+          <div class="body">
+            <h3>Кредиты бизнесу</h3>
+            <p>Финансовая поддержка для роста и развития вашего бизнеса.</p>
+            <a href="products/business.html" class="service-link">Подробнее <svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
         </article>
-        <article class="service-card reveal" style="--i:4">
-          <div class="service-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M4 4v16h16M8 15l4-5 3 3 5-7"/></svg></div>
-          <h3>Рефинансирование</h3>
-          <p>Объединяем несколько кредитов в один со сниженной ставкой и платежом.</p>
-          <a href="#apply" class="service-link">Подробнее <svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <article class="service-card reveal">
+          <div class="thumb"><img src="assets/img/illustrations/refinance.svg" alt=""></div>
+          <div class="body">
+            <h3>Рефинансирование залога</h3>
+            <p>Снижайте нагрузку — рефинансируйте залог под выгодный процент.</p>
+            <a href="products/refinance.html" class="service-link">Подробнее <svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
         </article>
-        <article class="service-card reveal" style="--i:6">
-          <div class="service-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M12 22s8-4.5 8-11V5l-8-3-8 3v6c0 6.5 8 11 8 11z"/></svg></div>
-          <h3>Страхование</h3>
-          <p>Страховое сопровождение сделок: жизнь, имущество, титул — на выгодных условиях.</p>
-          <a href="#apply" class="service-link">Подробнее <svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <article class="service-card reveal">
+          <div class="thumb"><img src="assets/img/illustrations/mortgage.svg" alt=""></div>
+          <div class="body">
+            <h3>Ипотека</h3>
+            <p>Купите жильё мечты с гибкой ипотекой на лучших условиях.</p>
+            <a href="products/mortgage.html" class="service-link">Подробнее <svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
         </article>
-        <article class="service-card reveal" style="--i:7">
-          <div class="service-icon"><svg class="icon" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></div>
-          <h3>Кредитные карты</h3>
-          <p>Карты с льготным периодом до 120 дней и кэшбэком — подбор без визита в банк.</p>
-          <a href="#apply" class="service-link">Подробнее <svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-        </article>
+      </div>
+
+      <div class="section-head center reveal mt-lg" id="addons" style="margin-bottom:28px;">
+        <span class="eyebrow">Ещё возможности</span>
+        <h2 class="section-title">Дополнительные услуги</h2>
+      </div>
+      <div class="addon-list">
+        <div class="addon-card reveal"><img src="assets/img/illustrations/service-rko.png" alt=""><p>Открытие РКО</p></div>
+        <div class="addon-card reveal"><img src="assets/img/illustrations/service-contract.png" alt=""><p>Составление договоров купли-продажи</p></div>
+        <div class="addon-card reveal"><img src="assets/img/illustrations/service-legal.png" alt=""><p>Проверка юридической чистоты сделки</p></div>
+        <div class="addon-card reveal"><img src="assets/img/illustrations/service-history.png" alt=""><p>Проверка кредитной истории</p></div>
       </div>
     </div>
   </section>
 
-  <!-- CALCULATOR -->
-  <section id="calculator" class="calc-section">
+  <!-- CREDIT DNA teaser — Блок #5 -->
+  <section id="credit-dna">
     <div class="container">
-      <div class="section-head center">
-        <span class="eyebrow">Калькулятор</span>
-        <h2 class="section-title">Узнайте платёж за 10 секунд</h2>
-        <p class="section-lead">Реальный расчёт по аннуитетной формуле — без регистрации и звонков менеджера.</p>
-      </div>
-
-      <div class="calculator reveal">
-        <div class="calc-form">
-          <div class="calc-type-toggle" role="tablist" aria-label="Тип кредита">
-            <button type="button" class="active" data-rate="8.9">Потребительский</button>
-            <button type="button" data-rate="5.9">Ипотека</button>
-            <button type="button" data-rate="9.5">Авто</button>
-            <button type="button" data-rate="11.5">Для бизнеса</button>
-          </div>
-
-          <div class="calc-field">
-            <div class="calc-field-head"><label for="calcSum">Сумма кредита</label><output id="calcSumOut">1 000 000 ₽</output></div>
-            <input type="range" id="calcSum" min="100000" max="15000000" step="50000" value="1000000">
-            <div class="calc-range-labels"><span>100 000 ₽</span><span>15 000 000 ₽</span></div>
-          </div>
-
-          <div class="calc-field">
-            <div class="calc-field-head"><label for="calcTerm">Срок кредита</label><output id="calcTermOut">36 мес.</output></div>
-            <input type="range" id="calcTerm" min="6" max="360" step="1" value="36">
-            <div class="calc-range-labels"><span>6 мес.</span><span>30 лет</span></div>
-          </div>
-
-          <div class="calc-field">
-            <div class="calc-field-head"><label for="calcRate">Процентная ставка</label><output id="calcRateOut">8,9%</output></div>
-            <input type="range" id="calcRate" min="4" max="24" step="0.1" value="8.9">
-            <div class="calc-range-labels"><span>4%</span><span>24%</span></div>
-          </div>
-        </div>
-
-        <div class="calc-result">
-          <div class="calc-result-main">
-            <span>Ежемесячный платёж</span>
-            <div class="amount" id="calcMonthly">31 745 ₽</div>
-          </div>
-          <div class="calc-result-list">
-            <div><span>Сумма кредита</span><b id="calcOutSum">1 000 000 ₽</b></div>
-            <div><span>Переплата по процентам</span><b id="calcOverpay">142 820 ₽</b></div>
-            <div><span>Итого к возврату</span><b id="calcTotal">1 142 820 ₽</b></div>
-          </div>
-          <div class="calc-bar"><span id="calcBarFill" style="width:88%"></span></div>
-          <div class="calc-bar-legend"><span>Тело кредита</span><span>Переплата</span></div>
-          <a href="#apply" class="btn btn-primary btn-block">Получить точное предложение</a>
+      <div class="split-block reveal">
+        <div class="split-media"><img src="assets/img/illustrations/credit-dna.svg" alt=""></div>
+        <div class="split-copy">
+          <span class="eyebrow">Кредитный ДНК</span>
+          <h2>Узнайте свои возможности за пару минут</h2>
+          <p>Ответьте на несколько вопросов, и мы подберём для вас лучшие условия кредитования — без звонков и визитов в офис.</p>
+          <a href="quiz.html" class="btn btn-primary">Начать тест</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- HOW IT WORKS -->
-  <section id="how">
+  <!-- CREDIT HISTORY — Блок #9 -->
+  <section class="bg-alt" id="credit-history">
     <div class="container">
-      <div class="section-head center">
-        <span class="eyebrow">Процесс</span>
-        <h2 class="section-title">Как это работает</h2>
-        <p class="section-lead">От заявки до денег на счету — в среднем 1–2 рабочих дня.</p>
-      </div>
-      <div class="steps" style="position:relative">
-        <div class="steps-connector" aria-hidden="true"></div>
-        <div class="step-card reveal"><span class="step-num">01</span><div class="step-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M4 4h16v16H4z" opacity="0"/><path d="M4 6h16M4 12h16M4 18h9"/></svg></div><h3>Оставляете заявку</h3><p>Заполняете простую форму на сайте — 2 минуты, без визита в офис.</p></div>
-        <div class="step-card reveal"><span class="step-num">02</span><div class="step-icon"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg></div><h3>Персональный менеджер</h3><p>Специалист анализирует ситуацию и подбирает подходящие банки.</p></div>
-        <div class="step-card reveal"><span class="step-num">03</span><div class="step-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4 6h.01M4 12h.01M4 18h.01"/></svg></div><h3>Сравниваете условия</h3><p>Получаете 3–5 предложений с честным расчётом ставки и платежа.</p></div>
-        <div class="step-card reveal"><span class="step-num">04</span><div class="step-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div><h3>Получаете деньги</h3><p>Подписываем документы онлайн и переводим средства на счёт.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ADVANTAGES / COMPARISON -->
-  <section id="advantages">
-    <div class="container">
-      <div class="section-head center">
-        <span class="eyebrow">Преимущества</span>
-        <h2 class="section-title">Почему клиенты выбирают нас, а не типового брокера</h2>
-        <p class="section-lead">Мы сравнили себя с рынком честно — вот в чём разница.</p>
-      </div>
-      <div class="compare-wrap reveal">
-        <table class="compare">
-          <thead>
-            <tr>
-              <th>Критерий</th>
-              <th class="us">Мы <span class="compare-badge">выбор клиентов</span></th>
-              <th>Типовой брокер</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Комиссия с клиента</td>
-              <td class="us"><svg class="icon-yes" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg> 0 ₽</td>
-              <td>1–7% от суммы</td>
-            </tr>
-            <tr>
-              <td>Банков-партнёров</td>
-              <td class="us">214</td>
-              <td>обычно 10–30</td>
-            </tr>
-            <tr>
-              <td>Решение по заявке</td>
-              <td class="us">от 12 минут</td>
-              <td>1–3 дня</td>
-            </tr>
-            <tr>
-              <td>Персональный менеджер</td>
-              <td class="us"><svg class="icon-yes" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></td>
-              <td><svg class="icon-no" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></td>
-            </tr>
-            <tr>
-              <td>Юридическая проверка договора</td>
-              <td class="us"><svg class="icon-yes" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></td>
-              <td>по запросу / платно</td>
-            </tr>
-            <tr>
-              <td>Электронный документооборот</td>
-              <td class="us"><svg class="icon-yes" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg> 100%</td>
-              <td>частично</td>
-            </tr>
-            <tr>
-              <td>Гарантия лучшей ставки</td>
-              <td class="us"><svg class="icon-yes" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></td>
-              <td><svg class="icon-no" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="eco-band reveal mt-lg">
-        <div class="eco-band-copy">
-          <span class="eyebrow">Ответственный подход</span>
-          <h2>Заботимся не только о вашей выгоде, но и об экологии</h2>
-          <p>Мы полностью отказались от бумажных анкет и курьерской доставки договоров — это быстрее для клиента и бережнее для планеты.</p>
-        </div>
-        <div class="eco-band-list">
-          <div><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg><div><b>100% безбумажный документооборот</b><p>Заявки, анкеты и договоры подписываются онлайн через ЭЦП.</p></div></div>
-          <div><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg><div><b>Дерево за каждую одобренную заявку</b><p>Поддерживаем программы лесовосстановления совместно с эко-фондами.</p></div></div>
-          <div><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg><div><b>Энергоэффективный офис и сервера</b><p>Используем провайдеров с «зелёной» энергией для наших цифровых сервисов.</p></div></div>
+      <div class="split-block reverse reveal">
+        <div class="split-media"><img src="assets/img/illustrations/robot-vs-human.png" alt=""></div>
+        <div class="split-copy">
+          <h2><span class="highlight">Ваша кредитная история</span> — это ваш финансовый паспорт</h2>
+          <p>Когда вы подаёте заявку на кредит, её проверяет автоматическая система — робот. Он анализирует ваш доход, кредитную историю и документы. Если что-то не идеально — например, есть просрочки или доход невысокий — робот сразу отказывает. Он работает строго по правилам и не учитывает, что у вас могли быть временные трудности: болезнь или потеря работы.</p>
+          <p>Но не стоит опускать руки! Брокер — это ваш надёжный помощник, который знает, как договориться с банком, объяснить сотрудникам ситуацию и помочь собрать дополнительные документы. Это значительно увеличивает шансы на одобрение, даже если робот сначала сказал «нет».</p>
+          <p><b>Что вы можете сделать уже сейчас?</b> Выгрузите свою кредитную историю у нас — это первый шаг к успешному одобрению. Мы поможем разобраться в ней, найти слабые места и подготовить всё так, чтобы банк сказал «да».</p>
+          <p><span class="highlight">Не позволяйте роботу решать вашу судьбу.</span> Доверьтесь профессионалам — проверьте свою кредитную историю уже сегодня!</p>
+          <div class="hero-cta" style="margin-top:8px;">
+            <a href="#apply" class="btn btn-primary">Проверить кредитную историю</a>
+            <a href="#apply" class="btn btn-ghost">Заказать отчёт</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- TESTIMONIALS -->
-  <section id="reviews">
-    <div class="container">
-      <div class="section-head center">
-        <span class="eyebrow">Отзывы</span>
-        <h2 class="section-title">Нам доверяют тысячи клиентов</h2>
-        <p class="section-lead">Реальные истории — имена и детали изменены по просьбе клиентов, суть сохранена.</p>
-      </div>
-      <div class="testi-track-wrap">
-        <div class="testi-track" id="testiTrack">
-          <div class="testi-card">
-            <div class="testi-stars">★★★★★</div>
-            <p class="quote">«Рефинансировали три кредита в один — платёж снизился почти вдвое. Всё оформили онлайн, даже в офис ехать не пришлось».</p>
-            <div class="testi-person"><div class="testi-avatar">МВ</div><div><b>Марина В.</b><span>Санкт-Петербург</span></div></div>
-          </div>
-          <div class="testi-card">
-            <div class="testi-stars">★★★★★</div>
-            <p class="quote">«Банк отказал напрямую, а через брокера одобрили ипотеку на вторичку за два дня. Менеджер был на связи всё время».</p>
-            <div class="testi-person"><div class="testi-avatar">АК</div><div><b>Артём К.</b><span>Казань</span></div></div>
-          </div>
-          <div class="testi-card">
-            <div class="testi-stars">★★★★★</div>
-            <p class="quote">«Оформляли кредит на развитие бизнеса. Понравилось, что сравнили сразу несколько банков и честно показали, где условия хуже».</p>
-            <div class="testi-person"><div class="testi-avatar">ИС</div><div><b>Ирина С.</b><span>Новосибирск</span></div></div>
-          </div>
-          <div class="testi-card">
-            <div class="testi-stars">★★★★★</div>
-            <p class="quote">«Ставка оказалась ниже, чем предлагал мой банк напрямую. Никаких скрытых комиссий, всё прозрачно».</p>
-            <div class="testi-person"><div class="testi-avatar">ДП</div><div><b>Дмитрий П.</b><span>Екатеринбург</span></div></div>
-          </div>
-        </div>
-      </div>
-      <div class="testi-nav">
-        <button id="testiPrev" aria-label="Предыдущий отзыв"><svg class="icon" viewBox="0 0 24 24" width="18" height="18"><path d="M15 6l-6 6 6 6"/></svg></button>
-        <button id="testiNext" aria-label="Следующий отзыв"><svg class="icon" viewBox="0 0 24 24" width="18" height="18"><path d="M9 6l6 6-6 6"/></svg></button>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
+  <!-- FAQ — Блок #10 -->
   <section id="faq">
     <div class="container">
-      <div class="section-head center">
+      <div class="section-head center reveal">
         <span class="eyebrow">Вопросы и ответы</span>
-        <h2 class="section-title">Частые вопросы</h2>
+        <h2 class="section-title">Часто задаваемые вопросы</h2>
       </div>
       <div class="faq-list">
         <div class="faq-item reveal" data-open="false">
-          <button class="faq-q">Сколько стоят ваши услуги для клиента?<svg class="icon" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg></button>
-          <div class="faq-a"><div class="faq-a-inner">Подбор и сопровождение сделки для клиента бесплатны — наше вознаграждение выплачивает банк-партнёр после одобрения заявки. Итоговая стоимость кредита для вас не увеличивается.</div></div>
+          <button class="faq-q">Как я смогу распоряжаться заложенной недвижимостью?<svg class="icon" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-a"><div class="faq-a-inner">Вы сохраняете все права: можете проживать в ней, сдавать в аренду или даже продать. Единственное условие — погашение кредита при продаже, и его можно сделать за счёт средств от продажи недвижимости.</div></div>
         </div>
         <div class="faq-item reveal" data-open="false">
-          <button class="faq-q">Как быстро одобрят заявку?<svg class="icon" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg></button>
-          <div class="faq-a"><div class="faq-a-inner">Предварительное решение приходит от 12 минут до нескольких часов в зависимости от продукта. Полное оформление ипотеки и крупных сумм занимает 1–3 рабочих дня.</div></div>
+          <button class="faq-q">Почему кредит под залог недвижимости выгоднее других видов кредитования?<svg class="icon" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-a"><div class="faq-a-inner"><ul>
+            <li>Низкая процентная ставка — один из самых выгодных вариантов для крупных сумм.</li>
+            <li>Без подтверждения дохода — не нужно предоставлять справки или искать поручителей.</li>
+            <li>Свобода использования средств — банк не контролирует, на что вы их тратите.</li>
+          </ul></div></div>
         </div>
         <div class="faq-item reveal" data-open="false">
-          <button class="faq-q">Работаете ли с плохой кредитной историей?<svg class="icon" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg></button>
-          <div class="faq-a"><div class="faq-a-inner">Да, среди партнёров есть банки и МФО с лояльным скорингом. Менеджер подберёт реалистичные варианты и честно предупредит о шансах на одобрение.</div></div>
+          <button class="faq-q">Как оформить кредит?<svg class="icon" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-a"><div class="faq-a-inner"><ul>
+            <li>Консультация — оценим вашу ситуацию и предложим лучшие условия.</li>
+            <li>Одобрение в день обращения — благодаря партнёрству с банками.</li>
+            <li>Минимум документов — без лишних визитов в банк и навязанных услуг.</li>
+          </ul></div></div>
         </div>
         <div class="faq-item reveal" data-open="false">
-          <button class="faq-q">Что будет с моими персональными данными?<svg class="icon" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg></button>
-          <div class="faq-a"><div class="faq-a-inner">Обработка данных соответствует 152-ФЗ. Данные передаются только в банки, которые вы выберете для подачи заявки, и защищены шифрованием.</div></div>
+          <button class="faq-q">Можно ли взять кредит под залог, если недвижимость уже в залоге?<svg class="icon" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-a"><div class="faq-a-inner">Да! Мы поможем рефинансировать текущий кредит на лучших условиях, объединить несколько долгов в один платёж или увеличить срок кредитования и получить дополнительные средства.</div></div>
         </div>
         <div class="faq-item reveal" data-open="false">
-          <button class="faq-q">Можно ли рефинансировать текущий кредит?<svg class="icon" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg></button>
-          <div class="faq-a"><div class="faq-a-inner">Да, можно объединить несколько кредитов в один с более низкой ставкой. Рассчитайте примерную выгоду в калькуляторе выше.</div></div>
+          <button class="faq-q">На какой срок оформляется кредит?<svg class="icon" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-a"><div class="faq-a-inner">От 3 месяцев до 20 лет. Досрочное погашение — без штрафов и комиссий.</div></div>
         </div>
         <div class="faq-item reveal" data-open="false">
-          <button class="faq-q">Нужен ли залог или поручитель?<svg class="icon" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg></button>
-          <div class="faq-a"><div class="faq-a-inner">Для большинства потребительских кредитов — нет. Для ипотеки залогом выступает приобретаемая недвижимость, для бизнес-кредитов условия обсуждаются индивидуально.</div></div>
+          <button class="faq-q">Можно ли получить кредит с плохой кредитной историей?<svg class="icon" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-a"><div class="faq-a-inner">Да, мы сотрудничаем с банками, которые рассматривают такие случаи индивидуально.</div></div>
+        </div>
+        <div class="faq-item reveal" data-open="false">
+          <button class="faq-q">Сколько стоят ваши услуги?<svg class="icon" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-a"><div class="faq-a-inner">Без предоплаты — вы платите только после получения денег. Фиксированная комиссия обсуждается индивидуально, в зависимости от сложности ситуации.</div></div>
+        </div>
+        <div class="faq-item reveal" data-open="false">
+          <button class="faq-q">Гарантировано ли одобрение кредита, если я оплачу ваши услуги?<svg class="icon" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-a"><div class="faq-a-inner">Мы не берём предоплату — вы платите только после успешного получения кредита. Наша мотивация — довести вас до результата, поэтому вероятность одобрения очень высока.</div></div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- APPLY FORM -->
-  <section id="apply" class="apply-section">
-    <div class="container apply-grid">
-      <div class="apply-copy">
-        <span class="eyebrow" style="background:rgba(63,227,164,.14); color:#3fe3a4;">Заявка</span>
-        <h2 class="section-title" style="color:#fff;">Оставьте заявку — подберём решение за 12 минут</h2>
-        <p class="section-lead">Заполнение занимает 2 минуты. Никаких обязательств и запросов в БКИ без вашего согласия.</p>
-        <div class="apply-benefits">
-          <div><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Бесплатная консультация персонального менеджера</div>
-          <div><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Предложения от нескольких банков в одной заявке</div>
-          <div><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Полное сопровождение сделки до получения средств</div>
-        </div>
+  <!-- NEWS — Блок #11 -->
+  <section class="bg-alt" id="news">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Новости</span>
+        <h2 class="section-title">Статьи и новости</h2>
+      </div>
+      <div class="news-grid">
+
+        <article class="news-card reveal" data-open="false">
+          <span class="tag">Ключевая ставка</span>
+          <h3>ЦБ сохранил ключевую ставку на уровне 21%: что это значит</h3>
+          <p>Центробанк оставил ставку на уровне 21% годовых, продолжая жёсткую денежно-кредитную политику ради борьбы с инфляцией.</p>
+          <button type="button" class="read-more"><span class="label">Читать статью</span> <span class="arrow">→</span></button>
+          <div class="full-text"><div class="full-text-inner">
+            <p>На очередном заседании в 2025 году Центральный банк Российской Федерации принял решение оставить ключевую ставку на уровне 21% годовых. Это решение стало продолжением жёсткой денежно-кредитной политики, направленной на борьбу с высокой инфляцией и стабилизацию экономической ситуации в стране.</p>
+            <p><b>Почему ЦБ сохраняет ставку на уровне 21%?</b> Основная причина — необходимость сдерживания инфляции: по данным Росстата, годовая инфляция в 2025 году превышает 15%, что значительно выше целевого показателя ЦБ в 4%. На рост цен влияют устойчивый дефицит товаров и услуг, ослабление национальной валюты и высокий уровень инфляционных ожиданий.</p>
+            <p><b>Как это повлияет на заёмщиков и вкладчиков?</b> Кредиты становятся ещё менее доступными: ставки по ипотеке, потребительским и автокредитам остаются высокими, а банки ужесточают требования к заёмщикам. Ставки по депозитам остаются высокими, что делает сберегательные продукты привлекательнее, хотя реальная доходность вкладов может быть ниже из-за инфляции. Для бизнеса высокая стоимость заёмных средств ограничивает инвестиционную активность.</p>
+            <p>Эксперты считают, что в 2025 году ставка вряд ли опустится ниже 15%. Это значит, что период дорогих кредитов продлится ещё как минимум несколько кварталов — важно тщательно планировать финансы и обращаться к специалистам, которые помогут найти оптимальные условия.</p>
+          </div></div>
+        </article>
+
+        <article class="news-card reveal" data-open="false">
+          <span class="tag">Вклады</span>
+          <h3>Новый лимит страхового возмещения по вкладам — 2,8 млн ₽</h3>
+          <p>С 1 апреля 2025 года лимит страхового возмещения по вкладам увеличивается — это стимул для роста кредитования.</p>
+          <button type="button" class="read-more"><span class="label">Читать статью</span> <span class="arrow">→</span></button>
+          <div class="full-text"><div class="full-text-inner">
+            <p>С 1 апреля 2025 года лимит страхового возмещения по вкладам в российских банках увеличивается до 2,8 млн рублей. Это решение укрепляет доверие граждан к банковской системе и открывает новые горизонты для кредитного рынка.</p>
+            <p>Теперь вкладчики могут с уверенностью размещать свои средства, зная, что их сбережения защищены. Это создаёт благоприятные условия для увеличения депозитов, что, в свою очередь, позволит банкам активнее выдавать кредиты — особенно в сегментах потребительских и ипотечных кредитов.</p>
+            <p>Банки, получившие доступ к большему объёму депозитов, смогут предложить более выгодные условия по кредитам, что привлечёт новых клиентов. В условиях растущей конкуренции это станет важным фактором для повышения доступности кредитования.</p>
+          </div></div>
+        </article>
+
+        <article class="news-card reveal" data-open="false">
+          <span class="tag">Ипотека</span>
+          <h3>Снижение досрочных закрытий ипотеки до рекордного минимума</h3>
+          <p>Аналитики прогнозируют, что доля досрочных закрытий ипотечных кредитов снизится до 2% на фоне выгодных ставок по депозитам.</p>
+          <button type="button" class="read-more"><span class="label">Читать статью</span> <span class="arrow">→</span></button>
+          <div class="full-text"><div class="full-text-inner">
+            <p>Аналитики прогнозируют, что в 2025 году доля досрочных закрытий ипотечных кредитов в России снизится до рекордно низкого уровня — всего 2%. Это связано с ростом ставок по депозитам, которые становятся более привлекательными для заёмщиков, чем досрочное погашение ипотеки.</p>
+            <p>Среди причин — выгодные условия по депозитам и ужесточение денежно-кредитной политики ЦБ. Заёмщики предпочитают сохранять средства на вкладах, получая стабильный доход, вместо того чтобы закрывать ипотеку досрочно.</p>
+            <p>Меньшее количество досрочных закрытий может привести к снижению ликвидности на рынке — банки будут получать меньше возвратов по кредитам. В то же время это стимулирует банки активнее привлекать новых клиентов и предлагать более выгодные условия по новым ипотечным кредитам.</p>
+          </div></div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- APPLY / CONSULTATION FORM -->
+  <section class="apply-section" id="apply">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Заявка</span>
+        <h2 class="section-title">Оставьте заявку на бесплатную консультацию</h2>
+        <p class="section-lead">Перезвоним, оценим ситуацию и подберём подходящие банки. Без предоплаты — платите только после получения денег.</p>
       </div>
 
-      <div class="apply-card">
-        <div class="apply-progress"><span class="dot active" data-step="1"></span><span class="dot" data-step="2"></span><span class="dot" data-step="3"></span></div>
-
-        <form id="applyForm" novalidate>
-          <div class="form-step active" data-step="1">
-            <div class="form-row">
-              <label>Какая услуга вас интересует?</label>
-              <div class="chip-group" id="serviceChips">
-                <button type="button" class="chip active" data-value="Потребительский кредит">Кредит наличными</button>
-                <button type="button" class="chip" data-value="Ипотека">Ипотека</button>
-                <button type="button" class="chip" data-value="Автокредит">Автокредит</button>
-                <button type="button" class="chip" data-value="Кредит для бизнеса">Для бизнеса</button>
-                <button type="button" class="chip" data-value="Рефинансирование">Рефинансирование</button>
-              </div>
+      <div class="apply-card reveal">
+        <form id="applyForm" data-lead-form novalidate>
+          <div class="form-row">
+            <label>Какая услуга вас интересует?</label>
+            <div class="chip-group" id="serviceChips">
+              <button type="button" class="chip active" data-value="Кредит под залог недвижимости">Под залог недвижимости</button>
+              <button type="button" class="chip" data-value="Кредит наличными">Кредит наличными</button>
+              <button type="button" class="chip" data-value="Автокредит">Автокредит</button>
+              <button type="button" class="chip" data-value="Кредит бизнесу">Бизнесу</button>
+              <button type="button" class="chip" data-value="Рефинансирование">Рефинансирование</button>
+              <button type="button" class="chip" data-value="Ипотека">Ипотека</button>
             </div>
-            <div class="form-row">
-              <label for="applySum">Желаемая сумма, ₽</label>
-              <input type="text" id="applySum" inputmode="numeric" placeholder="Например, 500 000">
-              <div class="err">Укажите примерную сумму</div>
-            </div>
-            <div class="form-actions">
-              <button type="button" class="btn btn-primary btn-block" data-next>Далее</button>
-            </div>
+            <input type="hidden" name="service" id="serviceInput" value="Кредит под залог недвижимости">
           </div>
-
-          <div class="form-step" data-step="2">
-            <div class="form-row">
-              <label for="applyName">Ваше имя</label>
-              <input type="text" id="applyName" autocomplete="name" placeholder="Иван Иванов">
-              <div class="err">Введите имя</div>
-            </div>
-            <div class="form-grid-2">
-              <div class="form-row">
-                <label for="applyPhone">Телефон</label>
-                <input type="tel" id="applyPhone" autocomplete="tel" placeholder="+7 (___) ___-__-__">
-                <div class="err">Введите корректный номер</div>
-              </div>
-              <div class="form-row">
-                <label for="applyCity">Город</label>
-                <input type="text" id="applyCity" autocomplete="address-level2" placeholder="Москва">
-              </div>
-            </div>
-            <div class="form-actions">
-              <button type="button" class="btn btn-ghost btn-block" data-back>Назад</button>
-              <button type="button" class="btn btn-primary btn-block" data-next>Далее</button>
-            </div>
+          <div class="form-row">
+            <label for="applyName">Ваше имя</label>
+            <input type="text" id="applyName" name="name" autocomplete="name" placeholder="Иван Иванов">
+            <div class="err">Введите имя</div>
           </div>
-
-          <div class="form-step" data-step="3">
-            <div class="form-row" style="background:var(--c-bg-alt); padding:18px; border-radius:12px;">
-              <p style="font-size:14px; color:var(--c-text-soft); line-height:1.6; margin:0;">Проверьте данные перед отправкой — менеджер свяжется с вами в течение 12 минут в рабочее время.</p>
-            </div>
-            <label class="consent">
-              <input type="checkbox" id="applyConsent">
-              <span>Даю согласие на <a href="privacy.html">обработку персональных данных</a> и получение информационных сообщений</span>
-            </label>
-            <div class="err" id="consentErr" style="display:none; margin-top:8px;">Необходимо согласие на обработку данных</div>
-            <div class="form-actions" style="margin-top:20px;">
-              <button type="button" class="btn btn-ghost btn-block" data-back>Назад</button>
-              <button type="submit" class="btn btn-primary btn-block">Отправить заявку</button>
-            </div>
+          <div class="form-row">
+            <label for="applyPhone">Телефон</label>
+            <input type="tel" id="applyPhone" name="phone" autocomplete="tel" placeholder="+7 (___) ___-__-__">
+            <div class="err">Введите корректный номер</div>
           </div>
+          <label class="consent">
+            <input type="checkbox" name="consent">
+            <span>Даю согласие на <a href="privacy.html">обработку персональных данных</a></span>
+          </label>
+          <div class="err consent-err" style="display:none; margin-top:8px;">Необходимо согласие на обработку данных</div>
+          <button type="submit" class="btn btn-primary btn-block" style="margin-top:20px;">Получить консультацию</button>
         </form>
-
-        <div class="form-success" id="formSuccess" style="display:none;">
+        <div class="form-success" style="display:none;">
           <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></div>
           <h3>Заявка отправлена!</h3>
-          <p>Персональный менеджер свяжется с вами в течение 12 минут в рабочее время. Также вы можете позвонить сами: <a href="tel:+78001234567" style="color:var(--c-accent-dark); font-weight:700;">8 800 123-45-67</a></p>
+          <p>Персональный менеджер свяжется с вами в ближайшее время. Также вы можете позвонить сами: <a href="tel:+78000000000" style="color:var(--c-primary); font-weight:700;">8 800 000-00-00</a></p>
         </div>
       </div>
     </div>
@@ -528,52 +478,43 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <span class="brand"><svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="14" fill="#0b2647"/><path d="M12 30l7-9 6 6 11-14" stroke="#00b877" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="brand-name"><b>Ваш бренд</b></span></span>
-        <p>Финансовый брокер полного цикла: кредиты, ипотека и страхование на условиях 200+ банков-партнёров.</p>
-        <div class="footer-social" aria-label="Социальные сети">
-          <a href="#" aria-label="Telegram"><svg class="icon" viewBox="0 0 24 24" width="17" height="17"><path d="M21 4L2 12l6 2m13-10l-4 17-8-6m12-11L8 14"/></svg></a>
-          <a href="#" aria-label="VK"><svg class="icon" viewBox="0 0 24 24" width="17" height="17"><path d="M4 8c0 6 4 10 10 10M4 8h4M18 8h2M8 8c.5 4 3 7 4 7M16 8c-.3 2-1.5 4-3 5"/></svg></a>
-          <a href="#" aria-label="WhatsApp"><svg class="icon" viewBox="0 0 24 24" width="17" height="17"><path d="M4 20l1.2-4A8 8 0 1112 20a8 8 0 01-4-1z"/></svg></a>
-        </div>
+        <img src="assets/img/logo-white.svg" alt="Согласовано">
+        <p>Кредитный брокер полного цикла: подбор банка, сопровождение сделки и юридическая поддержка в Москве и Московской области.</p>
       </div>
-
-      <div class="footer-col">
-        <h4>Компания</h4>
-        <ul>
-          <li><a href="#services">Услуги</a></li>
-          <li><a href="#advantages">Преимущества</a></li>
-          <li><a href="#reviews">Отзывы</a></li>
-          <li><a href="#faq">Вопросы</a></li>
-        </ul>
-      </div>
-
       <div class="footer-col">
         <h4>Услуги</h4>
         <ul>
-          <li><a href="#services">Потребительские кредиты</a></li>
-          <li><a href="#services">Ипотека</a></li>
-          <li><a href="#services">Автокредиты</a></li>
-          <li><a href="#services">Бизнес-кредиты</a></li>
+          <li><a href="products/collateral.html">Под залог недвижимости</a></li>
+          <li><a href="products/cash.html">Кредит наличными</a></li>
+          <li><a href="products/auto.html">Автокредит</a></li>
+          <li><a href="products/business.html">Кредиты бизнесу</a></li>
+          <li><a href="products/refinance.html">Рефинансирование залога</a></li>
+          <li><a href="products/mortgage.html">Ипотека</a></li>
         </ul>
       </div>
-
+      <div class="footer-col">
+        <h4>Компания</h4>
+        <ul>
+          <li><a href="#about">О компании</a></li>
+          <li><a href="quiz.html">Кредитный ДНК</a></li>
+          <li><a href="#news">Новости</a></li>
+          <li><a href="#faq">Вопросы и ответы</a></li>
+        </ul>
+      </div>
       <div class="footer-col">
         <h4>Контакты</h4>
         <ul class="footer-contact">
-          <li><svg class="icon" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3-8.7A2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.4 2.1L8 9.9a16 16 0 006 6l1.4-1.4a2 2 0 012.1-.4c.9.3 1.8.5 2.7.6a2 2 0 011.8 2.2z"/></svg><span>8 800 123-45-67 — звонок бесплатный</span></li>
-          <li><svg class="icon" viewBox="0 0 24 24"><path d="M4 4h16v16H4z" opacity="0"/><path d="M3 6l9 6 9-6M3 6h18v12H3z"/></svg><span>info@example.com</span></li>
-          <li><svg class="icon" viewBox="0 0 24 24"><path d="M12 22s8-4.5 8-11a8 8 0 10-16 0c0 6.5 8 11 8 11z"/><circle cx="12" cy="11" r="3"/></svg><span>г. Москва, ул. Примерная, д. 1</span></li>
-          <li><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg><span>Пн–Вс: 9:00–21:00 (МСК)</span></li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3-8.7A2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.4 2.1L8 9.9a16 16 0 006 6l1.4-1.4a2 2 0 012.1-.4c.9.3 1.8.5 2.7.6a2 2 0 011.8 2.2z"/></svg><span>8 800 000-00-00 — звонок бесплатный</span></li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M3 6l9 6 9-6M3 6h18v12H3z"/></svg><span>info@soglpartner.ru</span></li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M12 22s8-4.5 8-11a8 8 0 10-16 0c0 6.5 8 11 8 11z"/><circle cx="12" cy="11" r="3"/></svg><span>Москва и Московская область</span></li>
         </ul>
       </div>
     </div>
-
     <div class="footer-bottom">
-      <span>© <span id="year"></span> Ваш бренд. Все права защищены.</span>
+      <span>© <span id="year"></span> Согласовано. Все права защищены.</span>
       <div class="footer-legal">
         <a href="privacy.html">Политика конфиденциальности</a>
-        <a href="privacy.html#consent">Согласие на обработку ПДн</a>
-        <span>Финансовый брокер не является кредитной организацией. Итоговые условия определяются банком-партнёром.</span>
+        <span>Кредитный брокер не является кредитной организацией. Условия определяются банком-партнёром.</span>
       </div>
     </div>
   </div>
@@ -581,17 +522,30 @@
 
 <div class="float-cta">
   <button class="float-btn" id="backToTop" aria-label="Наверх"><svg class="icon" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-  <a href="tel:+78001234567" class="float-btn" aria-label="Заказать звонок"><svg class="icon" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3-8.7A2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.4 2.1L8 9.9a16 16 0 006 6l1.4-1.4a2 2 0 012.1-.4c.9.3 1.8.5 2.7.6a2 2 0 011.8 2.2z"/></svg></a>
+  <a href="tel:+78000000000" class="float-btn" aria-label="Позвонить"><svg class="icon" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3-8.7A2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.4 2.1L8 9.9a16 16 0 006 6l1.4-1.4a2 2 0 012.1-.4c.9.3 1.8.5 2.7.6a2 2 0 011.8 2.2z"/></svg></a>
 </div>
 
-<div class="cookie-banner" id="cookieBanner">
-  <p>Мы используем файлы cookie для аналитики и улучшения работы сайта. Продолжая пользоваться сайтом, вы соглашаетесь с <a href="privacy.html">политикой обработки данных</a>.</p>
-  <div class="cookie-actions">
-    <button class="btn btn-primary btn-sm" id="cookieAccept">Принять</button>
-    <button class="btn btn-ghost btn-sm" id="cookieDecline">Отклонить</button>
+<div class="fraud-banner" id="fraudBanner">
+  <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" width="20" height="20"><path d="M12 9v4M12 17h.01M10.3 3.9L1.8 18a2 2 0 001.7 3h17a2 2 0 001.7-3L13.7 3.9a2 2 0 00-3.4 0z"/></svg></div>
+  <div style="flex:1">
+    <strong>Важная информация для клиентов: будьте бдительны!</strong>
+    <p>Участились случаи мошенничества с кредитами, инвестициями и криптовалютами. Мошенники представляются сотрудниками банков или госорганов и убеждают перевести деньги на «безопасные счета». Немедленно прекратите общение, позвоните в банк и подайте заявление в полицию (102) или Центробанк (8-800-250-40-72). По вопросам пишите на <a href="mailto:info@soglpartner.ru" style="color:var(--c-primary); font-weight:700;">info@soglpartner.ru</a>.</p>
+    <div class="actions">
+      <button type="button" class="btn btn-primary btn-sm" data-dismiss-fraud>Принять</button>
+    </div>
   </div>
+  <button class="close-x" data-dismiss-fraud aria-label="Закрыть"><svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
 </div>
 
 <script src="assets/js/main.js"></script>
+<script>
+  document.querySelectorAll('#serviceChips .chip').forEach(function(chip){
+    chip.addEventListener('click', function(){
+      document.querySelectorAll('#serviceChips .chip').forEach(function(c){ c.classList.remove('active'); });
+      chip.classList.add('active');
+      document.getElementById('serviceInput').value = chip.getAttribute('data-value');
+    });
+  });
+</script>
 </body>
 </html>

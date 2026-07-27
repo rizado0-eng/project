@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Кредитный ДНК — узнайте свои возможности | Согласовано</title>
+<meta name="description" content="Ответьте на несколько вопросов, и мы подберём для вас лучшие условия кредитования.">
+<meta name="theme-color" content="#3b44e3">
+<link rel="icon" href="assets/img/logo.svg">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти к содержанию</a>
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<header class="site-header plain-header" id="siteHeader">
+  <div class="container">
+    <a href="index.html" class="brand" aria-label="На главную">
+      <img class="logo-color" src="assets/img/logo.svg" alt="Согласовано">
+    </a>
+    <nav class="nav-desktop" aria-label="Основная навигация">
+      <a href="index.html#services">Услуги</a>
+      <a href="index.html#about">О компании</a>
+      <a href="index.html#news">Новости</a>
+      <a href="index.html#contacts">Контакты</a>
+    </nav>
+    <div class="header-actions">
+      <div class="header-phone">
+        <a href="tel:+78000000000">8 800 000-00-00</a>
+        <small>Бесплатно по России</small>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+        <svg class="icon icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon icon-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/></svg>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="nav-mobile" id="navMobile">
+  <div class="nav-mobile-top">
+    <img src="assets/img/logo.svg" alt="Согласовано" style="height:26px">
+    <button class="menu-toggle" id="menuClose" aria-label="Закрыть меню" style="background:var(--c-bg-alt);color:var(--c-text)">
+      <svg class="icon" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <a href="index.html#services">Услуги</a>
+  <a href="index.html#about">О компании</a>
+  <a href="index.html#news">Новости</a>
+  <a href="index.html#contacts">Контакты</a>
+</div>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs"><a href="index.html">Главная</a> / Кредитный ДНК</div>
+      <span class="eyebrow">Кредитный ДНК</span>
+      <h1>Узнайте свои возможности за пару минут</h1>
+      <p>Ответьте на несколько вопросов о цели и сумме кредита — мы учтём вашу ситуацию и подберём подходящие банки.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="quiz-shell">
+        <div class="quiz-progress" id="quizProgressWrap" style="display:none;"><span id="quizProgressBar" style="width:0%"></span></div>
+
+        <div id="quizSegmentSelect">
+          <div class="quiz-question" style="text-align:center;">Кто оформляет заявку?</div>
+          <div class="quiz-segment-select">
+            <button type="button" class="quiz-segment-card" data-segment="fiz">
+              <img src="assets/img/illustrations/quiz-start.svg" alt="">
+              <b>Физическое лицо</b>
+              <span>Личный кредит, ипотека, авто</span>
+            </button>
+            <button type="button" class="quiz-segment-card" data-segment="ip">
+              <img src="assets/img/illustrations/business.svg" alt="">
+              <b>ИП</b>
+              <span>Кредит для бизнеса</span>
+            </button>
+            <button type="button" class="quiz-segment-card" data-segment="ooo">
+              <img src="assets/img/illustrations/laptop.svg" alt="">
+              <b>ООО</b>
+              <span>Кредит для юрлица</span>
+            </button>
+          </div>
+        </div>
+
+        <div id="quizBody" style="display:none;"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="contacts">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/img/logo-white.svg" alt="Согласовано">
+        <p>Кредитный брокер полного цикла: подбор банка, сопровождение сделки и юридическая поддержка в Москве и Московской области.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Услуги</h4>
+        <ul>
+          <li><a href="products/collateral.html">Под залог недвижимости</a></li>
+          <li><a href="products/cash.html">Кредит наличными</a></li>
+          <li><a href="products/mortgage.html">Ипотека</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Компания</h4>
+        <ul>
+          <li><a href="index.html#about">О компании</a></li>
+          <li><a href="index.html#news">Новости</a></li>
+          <li><a href="index.html#faq">Вопросы и ответы</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Контакты</h4>
+        <ul class="footer-contact">
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3-8.7A2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.4 2.1L8 9.9a16 16 0 006 6l1.4-1.4a2 2 0 012.1-.4c.9.3 1.8.5 2.7.6a2 2 0 011.8 2.2z"/></svg><span>8 800 000-00-00</span></li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M3 6l9 6 9-6M3 6h18v12H3z"/></svg><span>info@soglpartner.ru</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Согласовано. Все права защищены.</span>
+      <div class="footer-legal"><a href="privacy.html">Политика конфиденциальности</a></div>
+    </div>
+  </div>
+</footer>
+
+<div class="float-cta">
+  <button class="float-btn" id="backToTop" aria-label="Наверх"><svg class="icon" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+</div>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/quiz.js"></script>
+</body>
+</html>
